@@ -1,0 +1,21 @@
+##Day 4
+#
+#
+#[Scanning] Scanning through the snow
+#
+#
+#Question 1: What is the name of the HTTP server running on the remote host?
+#Answer: apache
+#How to get it: nmap -sV IP
+#
+#Question 2: What is the name of the service running on port 22 on the QA server?
+#Answer: ssh
+#How to get it: as above
+#
+#Question 3: What flag can you find after successfully accessing the Samba service?
+#Answer: {THM_SANTA_SMB_SERVER}
+#How to get it: connect to samba (f.e. smb://IP), folder admins, file flag.txt
+#
+#Question 4: What is the password for the username santahr?
+#Answer: santa25
+#How to get it: as above, file userlist.txt
